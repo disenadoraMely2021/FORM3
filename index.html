@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="hoja1.css">
+	
+</head>
+
+<body>
+<h2>Formulario de alta</h2>
+<table>
+<tr>
+	<th><h3>Nombre y apellidos<i>*</i></h3></th> <!-- celda de cabecera de la colum 1 -->
+	<th> </th> <!-- celda de cabecera de la columna 1 -->
+  	<th colspan="2" align="left"><h3>Dirección<i>*</i></h3></th> <!-- celda de cabecera de la colum 1 -->
+
+  </tr>
+
+<!--Fila 1 -->
+  <tr>
+	<td>
+	   <form>
+	<p>
+	<input type="tex"name="nombre" autofocus=""><br>Nombre
+	</p>
+	    </form>
+	 </td><!--celda 1- fila 1 -->
+
+	<td width="120"> </td> <!--  celda 2 - fila 1 -->
+	 
+	<td colspan="2">
+	   <form>
+	<p>
+	<input type="street-address" name="dirección"><br>Calle,número,piso,puerta
+	</p>
+	    </form>
+	</td><!--celda 1 - fila 1-->
+  </tr>
+
+<!--Fila 2 -->
+  <tr>
+	<td>
+	<form>
+	<p>
+	<input type="family-name" name="apellido"><br>Primer apellido
+	</p>
+	</form>
+	</td> <!-- celda 1- fila 2 -->
+	
+	<td><p> </p></td> <!-- celda 2 fila 2-->
+	<td>
+	<form>
+	<p>
+	<input type="postal-code" name="Codigo postal"><br>Código postal
+	</p>
+	</form>
+	</td> <!--celda 3 - fila2 -->
+
+	<td>
+	<form>
+	<p>
+	<input type="text" name="Municipio"><br>Municipio
+	</p>
+	</form>
+	</td> <!-- celda 4 -fila 2 -->
+  </tr>
+
+<!-- Fila 3 -->
+  	<tr>
+	<td>
+	<form>
+	<p>
+	<input type="family-name" name="apellido"><br>Segundo apellido
+	</p>
+	</form>
+	</td> <!-- celda 1 - fila 3-->
+
+	<td> </td> <!-- celda 2 - fila 3-->
+
+	
+	<td>
+	<form>
+	 <select id="provincia" name="provincia">
+	<option valvue=""></option> 
+	<option valvue="Provincia1">Provincia 1</option>
+	<option valvue="Provincia2">Provincia 2</option><br>
+
+	</select><br> 
+	Provincia
+	<br><br>
+	</form>
+	</td> <!-- celda 3 - fila 3-->
+
+	<td>
+	<form>
+	 <select id="pais" name="pais">
+	<option valvue=""></option> 
+	<option valvue="Pais1">Pais 1</option>
+	<option valvue="Pais2">Pais 2</option><br>
+
+	</select><br> 
+	Pais
+	<br><br>
+	</form>
+	</td> <!--celda 4 -fila 3-->
+  	</tr>
+<!-- Fila 4-->
+  <tr>
+	<td><p> </p></td> <!-- celda 1 fila 4-->
+	<td height="60"><p> </p></td> <!-- celda 2 -fila 4-->
+	<td><p> </p></td> <!-- celda 3 - fila 4-->
+	<td><p> </p></td> <!-- celda 4 - fila 4-->
+  </tr>
+
+<!-- fila 5-->
+   <tr>
+	<th align="left">Email<i>*</i></th> <!-- celda 1 - fila 5-->
+	<th> </th> <!--celda 2 - fila 5-->
+  	<th colspan="2" align="left">Teléfono<i>*</i></th> <!-- celda 3 -fila 5-->
+  </tr>
+<!--  Fila 6-->
+  	<tr>
+	<td>
+	<form>
+	<p>
+	<input type="email" name="correo">
+	</p>
+	</form>
+	</td> <!-- celda 1 - fila 6-->
+	
+	<td> </td> <!-- celda 2 -fila 6-->
+
+	<td>
+	<form>
+	<p>
+	<input type="tel" name="fijo"><br>Fijo
+	</p>
+	</form>
+	</td> <!-- celda 3 -fila 6-->
+
+	<td>
+	<form>
+	<p>
+	<input type="tel" name="movil"><br>Móvil
+	</p>
+	</form>
+	</td> <!-- celda 4 - fila 6-->
+  </tr>
+
+</table>
+</body>
+</html>
